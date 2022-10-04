@@ -1,0 +1,16 @@
+DATE AND TIME:		Mon Oct 03 22:03:37 CDT 2022
+FILENAME:		BugTracker.java
+
+USER:			anthony
+BUG TYPE:		Output error
+BUG PRIORITY:		Medium
+BUG DESCRIPTION: 	The fileWriter within the changeBugStatus() method does not update the existing bug text file.
+
+BUG STATUS: 		IN PROCESS
+
+-------------------------
+DATE:			Tue Oct 04 11:28:28 CDT 2022
+STATUS UPDATE:		FIXED
+----------------------------------
+DATE:			Tue Oct 04 11:29:41 CDT 2022
+STATUS UPDATE:		COMMITTED
