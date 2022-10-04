@@ -1,0 +1,18 @@
+DATE AND TIME:		Tue Oct 04 12:07:17 CDT 2022
+FILENAME:		BugTracker.java
+
+USER:			Anthony
+BUG TYPE:		output error
+BUG PRIORITY:		low
+BUG DESCRIPTION: 	When the filewriter came to writing out the bug description 
+			during the process of filing a new bug, it would print the entirety 
+			of the input on a single line. Seeing as how this may be lacking 
+			in readability, I tried to print out the input on multiple 
+			lines. After failing to put the right amount of tabs in and newlines 
+			along with just getting the thing to work, I finally found the fix 
+			just for it and now it should even print this out properly. 
+
+BUG STATUS: 		FIXED
+----------------------------------
+DATE:			Tue Oct 04 12:10:04 CDT 2022
+STATUS UPDATE:		COMMITTED
